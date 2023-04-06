@@ -1,0 +1,71 @@
+html {
+  background-image: url("150265.jpg");
+  font-size: 20px;
+}
+body {
+  color: rgb(234, 119, 48);
+  font-family: Delicious Handrawn;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h1 {
+  background-color: rgb(83, 23, 23);
+}
+li {
+  list-style-type: none;
+  margin: 20;
+  padding: 20;
+  width: 200px;
+
+  background-color: rgb(83, 23, 23);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  flex-wrap: nowrap;
+}
+
+form {
+  background-color: rgb(66, 3, 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.bare {
+  position: relative;
+  font-family: Delicious Handrawn;
+  color: white;
+}
+.gal {
+  margin-bottom: 2%;
+  margin-right: 2%;
+  justify-content: space-evenly;
+  position: relative;
+  font-family: Delicious Handrawn;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.image:hover {
+  transform: scale(1.1, 1.1) rotate(-1deg);
+}
+a,
+p {
+  background-color: rgb(83, 23, 23);
+  color: rgb(234, 119, 48);
+}
